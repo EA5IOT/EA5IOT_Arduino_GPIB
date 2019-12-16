@@ -16,7 +16,22 @@ Permissions beyond the scope of this license may be available at emanuele_girlan
  To receive from GIPB you must issue a ++read command or put the controller in auto mode with ++auto 1.
  The receiver is unbeffered (byte are senti to USB as soon as they are received).
 */
+/*	EA5IOT Arduino Micro V1.0 GPIB to USB
+    Copyright (C) 2020
 
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
 /*
  Together with the comments aside,these definitions define the mapping between the Arduino pins and the GPIB connector.
  It actually defines the hardware connections required for this sketch to work.
